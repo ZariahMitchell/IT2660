@@ -1,0 +1,9 @@
+public class arraytest 
+{
+   public static void main(String[] args) 
+    { 
+        reverseArray re = new reverseArray();
+        int [] arr = {10, 20, 30, 40, 50}; 
+        reverse(arr, arr.length); 
+    } 
+}

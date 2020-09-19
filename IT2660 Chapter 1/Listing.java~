@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Listing
+{
+ private String name;
+ private int age;
+ 
+ public void input()
+ { 
+   Scanner KB = new Scanner(System.in);
+   System.out.print("Enter Name: ");
+   name = KB.next();
+   System.out.print("Enter Age: ");
+   age = KB.nextInt();
+ }
+
+ public String getName()
+ { 
+   return (name);
+ }
+ 
+  public int getAge()
+ { 
+   return (age);
+ 
+ }
+    
+}
